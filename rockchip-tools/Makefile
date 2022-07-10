@@ -3,8 +3,8 @@ CFLAGS  ?= -O2 -Wall -Wextra
 LDFLAGS ?= -lcrypto
 PREFIX  ?= usr/local
 
-TARGETS = afptool img_maker mkbootimg unmkbootimg
-SCRIPTS = mkrootfs mkupdate mkcpiogz unmkcpiogz
+TARGETS = afptool img_maker mkbootimg unmkbootimg mkkrnlimg resource_tool
+SCRIPTS = mkrootfs mkupdate mkcpiogz unmkcpiogz mkkrnlimg resource_tool
 DEPS    = Makefile rkafp.h rkcrc.h
 
 all: $(TARGETS)
