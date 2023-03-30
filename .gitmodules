@@ -1,3 +1,6 @@
 [submodule "initrd"]
 	path = initrd
 	url = https://github.com/T-Firefly/initrd.git
+[submodule "rockchip-mkbootimg"]
+	path = rockchip-mkbootimg
+	url = https://github.com/neo-technologies/rockchip-mkbootimg.git
