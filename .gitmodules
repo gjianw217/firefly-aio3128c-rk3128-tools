@@ -4,3 +4,6 @@
 [submodule "rockchip-mkbootimg"]
 	path = rockchip-mkbootimg
 	url = https://github.com/neo-technologies/rockchip-mkbootimg.git
+[submodule "arm-eabi-4.6"]
+	path = arm-eabi-4.6
+	url = https://github.com/knzy/arm-eabi-4.6.git
